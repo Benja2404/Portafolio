@@ -34,6 +34,10 @@ También puedes compilarlo con:
 
 - `npm run build`
 
+Tambien puedes ingresar directamente con el enlace:
+
+- https://portafolio-benjamin-contreras.vercel.app
+
 ## Contacto
 
 - Correo: bcontrerasar@utem.cl
