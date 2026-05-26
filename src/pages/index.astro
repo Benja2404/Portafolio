@@ -1,0 +1,235 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+---
+
+<BaseLayout title="Benjamín Contreras | Portafolio digital" description="Portafolio personal de Benjamín Contreras, estudiante de Ingeniería Informática en UTEM con enfoque en frontend, diseño web y soluciones con impacto real.">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">BC</span>
+        <span>Benjamín Contreras · Marca personal</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Frontend Developer · Ingeniería Informática UTEM</p>
+          <h1>Desarrollo interfaces y productos web con impacto real.</h1>
+          <p>
+            Soy Benjamín Contreras, estudiante de 5º año de Ingeniería Informática en la
+            Universidad Tecnológica Metropolitana. Me interesa el desarrollo de software
+            y soluciones web, con foco en frontend, diseño visual y experiencias útiles.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#proyectos">Ver proyectos</a>
+            <a class="button" href="#contacto">Contactar</a>
+          </div>
+        </div>
+
+        <figure class="hero-card">
+          <img src="/avatar.jpg" alt="Foto de perfil de Benjamín Contreras" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <SectionHeading
+          eyebrow="Presentación"
+          title="Sobre mí"
+          description="Un resumen breve de mi formación, enfoque profesional e intereses actuales."
+        />
+
+        <div class="about-grid">
+          <article class="panel">
+            <h3 class="card-title">Quién soy</h3>
+            <p>
+              Actualmente curso 5º año de Ingeniería Informática en la UTEM y me he
+              enfocado en construir soluciones web con impacto real. Me motiva combinar
+              código, diseño y organización para crear productos claros y funcionales.
+            </p>
+            <p>
+              Trabajo con HTML, CSS, JavaScript y frameworks modernos, junto con bases de
+              datos, control de versiones y herramientas de colaboración.
+            </p>
+          </article>
+
+          <article class="panel">
+            <h3 class="card-title">Perfil rápido</h3>
+            <ul class="meta-list">
+              <li><strong>Enfoque:</strong> frontend development y soluciones web</li>
+              <li><strong>Intereses:</strong> software, UX, accesibilidad y productos digitales</li>
+              <li><strong>Objetivo:</strong> seguir creciendo en proyectos reales y colaborativos</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="container">
+        <SectionHeading
+          eyebrow="Competencias"
+          title="Habilidades"
+          description="Habilidades reales organizadas por categoría para una lectura más clara."
+        />
+
+        <div class="skill-groups">
+          <article class="panel skill-card">
+            <h3>Tecnologías</h3>
+            <ul class="skill-list">
+              <li>HTML5 y CSS3</li>
+              <li>JavaScript, Node.js y React</li>
+              <li>Python y Ruby</li>
+              <li>MySQL, AWS y Google Cloud</li>
+            </ul>
+          </article>
+
+          <article class="panel skill-card">
+            <h3>Herramientas</h3>
+            <ul class="skill-list">
+              <li>Git y GitHub</li>
+              <li>VS Code, Postman y npm</li>
+              <li>Figma, Canva y Lucidchart</li>
+              <li>Trello y GitHub Projects</li>
+            </ul>
+          </article>
+
+          <article class="panel skill-card">
+            <h3>Competencias personales</h3>
+            <ul class="skill-list">
+              <li>Responsabilidad y organización</li>
+              <li>Proactividad y aprendizaje continuo</li>
+              <li>Trabajo en equipo</li>
+              <li>Buenas relaciones interpersonales</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="container">
+        <SectionHeading
+          eyebrow="Portafolio"
+          title="Proyectos"
+          description="Proyectos reales que muestran experiencia en frontend, bases de datos y trabajo colaborativo."
+        />
+
+        <div class="project-grid">
+          <article class="card project-card">
+            <span class="project-badge">Proyecto 01</span>
+            <div>
+              <h3 class="card-title">Nany Market</h3>
+              <p>
+                Sistema de gestión de inventario desarrollado como proyecto académico
+                colaborativo para un minimarket real.
+              </p>
+              <p class="project-role"><strong>Rol:</strong> Desarrollador full stack.</p>
+            </div>
+            <div class="project-links">
+              <a class="button" href="mailto:bcontrerasar@utem.cl">Solicitar detalles</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <span class="project-badge">Proyecto 02</span>
+            <div>
+              <h3 class="card-title">Mapa gastronómico SaaS</h3>
+              <p>
+                Aplicación web tipo SaaS enfocada en mapa gastronómico, con reservas,
+                pedidos y gestión de locales.
+              </p>
+              <p class="project-role"><strong>Rol:</strong> Frontend developer.</p>
+            </div>
+            <div class="project-links">
+              <a class="button" href="mailto:bcontrerasar@utem.cl">Solicitar detalles</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <span class="project-badge">Práctica profesional</span>
+            <div>
+              <h3 class="card-title">Servidor P2P para robótica y teleoperación</h3>
+              <p>
+                Desarrollo de servidor de comunicación para control remoto de robot via internet.
+                Conexión P2P exitosa con Meta Quest 3, servidores TURN de respaldo en AWS y Google Cloud,
+                WebRTC, baja latencia, y sincronización entre pares.
+              </p>
+              <p class="project-role"><strong>Rol:</strong> Diseño e implementación de servidor.</p>
+              <p style="font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem;">
+                <strong>Tecnologías:</strong> Node.js, TypeScript, Python, GStreamer, WebRTC, AWS, Google Cloud.
+              </p>
+            </div>
+            <div class="project-links">
+              <a class="button" href="mailto:bcontrerasar@utem.cl">Solicitar detalles</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container">
+        <SectionHeading
+          eyebrow="Contacto"
+          title="Hablemos"
+          description="Medios de contacto reales y enlaces profesionales del currículum."
+        />
+
+        <div class="contact-grid">
+          <article class="panel contact-list">
+            <h3 class="card-title">Medios directos</h3>
+            <a class="contact-link" href="mailto:bcontrerasar@utem.cl">
+              <span>✉</span>
+              bcontrerasar@utem.cl
+            </a>
+            <a class="contact-link" href="tel:+56958496084">
+              <span>☎</span>
+              +56 9 5849 6084
+            </a>
+            <a class="contact-link" href="http://www.linkedin.com/in/benjamin-ignacio-contreras-arteaga-834466372" target="_blank" rel="noreferrer">
+              <span>in</span>
+              LinkedIn
+            </a>
+            <a class="contact-link" href="https://github.com/Benja2404" target="_blank" rel="noreferrer">
+              <span>⌘</span>
+              GitHub
+            </a>
+          </article>
+
+          <article class="panel">
+            <h3 class="card-title">Redes profesionales</h3>
+            <p>
+              Ubicación: Santiago, Las Condes. También puedes revisar mi actividad y
+              perfil profesional en los enlaces siguientes.
+            </p>
+            <ul class="social-list">
+              <li><a href="http://www.linkedin.com/in/benjamin-ignacio-contreras-arteaga-834466372" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/Benja2404" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="mailto:bcontrerasar@utem.cl">Correo UTEM</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Benjamín Contreras · Portafolio digital</p>
+      <p>Desarrollado con Astro, HTML5 y CSS3.</p>
+    </div>
+  </footer>
+</BaseLayout>

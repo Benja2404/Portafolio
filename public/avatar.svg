@@ -1,0 +1,25 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar ilustrado de perfil profesional</title>
+  <desc id="desc">Ilustración de una persona con fondo degradado azul y verde, pensada como avatar de portafolio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="70" x2="520" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="240" y1="360" x2="400" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="640" rx="96" fill="url(#bg)"/>
+  <circle cx="320" cy="264" r="122" fill="#F8FAFC" opacity="0.96"/>
+  <path d="M200 548C218 458 271 414 320 414C369 414 422 458 440 548" fill="url(#shirt)"/>
+  <path d="M247 257C258 213 291 183 336 183H347C393 183 426 213 437 257C441 274 438 301 429 322C420 341 393 363 355 363H285C247 363 220 341 211 322C202 301 199 274 203 257C207 236 222 224 247 257Z" fill="#F8FAFC"/>
+  <ellipse cx="275" cy="277" rx="16" ry="20" fill="#0F172A"/>
+  <ellipse cx="365" cy="277" rx="16" ry="20" fill="#0F172A"/>
+  <path d="M290 323C302 335 320 341 335 341C351 341 368 335 380 323" stroke="#0F172A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M220 237C240 171 290 141 335 141C390 141 441 175 457 237C449 233 438 230 428 230H412C393 184 367 166 335 166C302 166 276 184 257 230H241C231 230 228 232 220 237Z" fill="#0F172A"/>
+  <circle cx="492" cy="128" r="18" fill="#F8FAFC" opacity="0.8"/>
+  <circle cx="153" cy="485" r="22" fill="#F8FAFC" opacity="0.7"/>
+  <circle cx="515" cy="482" r="12" fill="#F8FAFC" opacity="0.65"/>
+</svg>
